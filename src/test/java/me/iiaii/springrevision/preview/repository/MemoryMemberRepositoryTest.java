@@ -1,6 +1,6 @@
-package me.iiaii.springrevision.repository;
+package me.iiaii.springrevision.preview.repository;
 
-import me.iiaii.springrevision.domain.Member;
+import me.iiaii.springrevision.preview.domain.Member;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 

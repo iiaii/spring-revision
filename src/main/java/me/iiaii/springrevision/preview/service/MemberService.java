@@ -1,9 +1,8 @@
-package me.iiaii.springrevision.service;
+package me.iiaii.springrevision.preview.service;
 
-import me.iiaii.springrevision.domain.Member;
-import me.iiaii.springrevision.repository.MemberRepository;
+import me.iiaii.springrevision.preview.domain.Member;
+import me.iiaii.springrevision.preview.repository.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package me.iiaii.springrevision.domain;
+package me.iiaii.springrevision.preview.domain;
 
 import lombok.Getter;
 import lombok.Setter;

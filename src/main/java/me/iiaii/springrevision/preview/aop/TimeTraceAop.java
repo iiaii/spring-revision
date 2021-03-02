@@ -1,4 +1,4 @@
-package me.iiaii.springrevision.aop;
+package me.iiaii.springrevision.preview.aop;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;

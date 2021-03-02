@@ -1,7 +1,7 @@
-package me.iiaii.springrevision.service;
+package me.iiaii.springrevision.preview.service;
 
-import me.iiaii.springrevision.domain.Member;
-import me.iiaii.springrevision.repository.MemoryMemberRepository;
+import me.iiaii.springrevision.preview.domain.Member;
+import me.iiaii.springrevision.preview.repository.MemoryMemberRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

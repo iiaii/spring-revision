@@ -1,4 +1,4 @@
-package me.iiaii.springrevision.controller;
+package me.iiaii.springrevision.preview.controller;
 
 import lombok.Getter;
 import lombok.Setter;
