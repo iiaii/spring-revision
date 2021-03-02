@@ -1,6 +1,7 @@
 package me.iiaii.springrevision.repository;
 
 import me.iiaii.springrevision.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
