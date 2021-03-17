@@ -1,7 +1,11 @@
 package me.iiaii.springrevision.practice;
 
+import me.iiaii.springrevision.practice.discount.DiscountPolicy;
 import me.iiaii.springrevision.practice.member.MemberRepository;
 import me.iiaii.springrevision.practice.member.MemoryMemberRepository;
+import me.iiaii.springrevision.practice.order.OrderService;
+import me.iiaii.springrevision.practice.order.OrderServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -13,9 +17,9 @@ import org.springframework.context.annotation.FilterType;
 )  // @Component 를 찾아 등록 (제외하는 예제)
 public class AutoAppConfig {
 
-    // 수동 등록된 빈이 우선권을 가진다 (스프링 부트에서는 오류되도록 됨)
-    @Bean(name = "memoryMemberRepository")
-    MemberRepository memberRepository() {
-        return new MemoryMemberRepository();
-    }
+//    // 수동 등록된 빈이 우선권을 가진다 (스프링 부트에서는 오류되도록 됨)
+//    @Bean(name = "memoryMemberRepository")
+//    MemberRepository memberRepository() {
+//        return new MemoryMemberRepository();
+//    }
 }

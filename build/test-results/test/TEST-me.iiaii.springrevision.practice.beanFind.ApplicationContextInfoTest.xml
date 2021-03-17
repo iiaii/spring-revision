@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="me.iiaii.springrevision.practice.beanFind.ApplicationContextInfoTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-03-17T14:07:54" hostname="CJHui-MacBook-Pro.local" time="0.115">
+  <properties/>
+  <testcase name="애플리케이션 빈 출력하기" classname="me.iiaii.springrevision.practice.beanFind.ApplicationContextInfoTest" time="0.019"/>
+  <testcase name="모든 빈 출력하기" classname="me.iiaii.springrevision.practice.beanFind.ApplicationContextInfoTest" time="0.014"/>
+  <system-out><![CDATA[23:07:54.496 [Test worker] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5dd3b4fe
+23:07:54.501 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+23:07:54.532 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+23:07:54.544 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+23:07:54.546 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+23:07:54.571 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+23:07:54.573 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+23:07:54.575 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfig'
+23:07:54.576 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'memberService'
+23:07:54.577 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'memberRepository'
+23:07:54.578 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderService'
+23:07:54.579 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'discountPolicy'
+name = appConfig bean = me.iiaii.springrevision.practice.AppConfig$$EnhancerBySpringCGLIB$$e8c62c45@23eb0c62
+name = memberService bean = me.iiaii.springrevision.practice.member.MemberServiceImpl@37ee92ba
+name = orderService bean = me.iiaii.springrevision.practice.order.OrderServiceImpl@3b7167ce
+name = memberRepository bean = me.iiaii.springrevision.practice.member.MemoryMemberRepository@311b2396
+name = discountPolicy bean = me.iiaii.springrevision.practice.discount.RateDiscountPolicy@4002ebb0
+23:07:54.636 [Test worker] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@539ef4a5
+23:07:54.639 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+23:07:54.671 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+23:07:54.673 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+23:07:54.674 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+23:07:54.675 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+23:07:54.676 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+23:07:54.679 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfig'
+23:07:54.682 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'memberService'
+23:07:54.684 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'memberRepository'
+23:07:54.686 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderService'
+23:07:54.707 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'discountPolicy'
+name = org.springframework.context.annotation.internalConfigurationAnnotationProcessor bean = org.springframework.context.annotation.ConfigurationClassPostProcessor@7b8b4d6c
+name = org.springframework.context.annotation.internalAutowiredAnnotationProcessor bean = org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor@6be29396
+name = org.springframework.context.annotation.internalCommonAnnotationProcessor bean = org.springframework.context.annotation.CommonAnnotationBeanPostProcessor@5555caf3
+name = org.springframework.context.annotation.internalPersistenceAnnotationProcessor bean = org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor@3ebcfffb
+name = org.springframework.context.event.internalEventListenerProcessor bean = org.springframework.context.event.EventListenerMethodProcessor@1f7d356d
+name = org.springframework.context.event.internalEventListenerFactory bean = org.springframework.context.event.DefaultEventListenerFactory@60fc6b37
+name = appConfig bean = me.iiaii.springrevision.practice.AppConfig$$EnhancerBySpringCGLIB$$e8c62c45@713dbd0a
+name = memberService bean = me.iiaii.springrevision.practice.member.MemberServiceImpl@717c30a3
+name = orderService bean = me.iiaii.springrevision.practice.order.OrderServiceImpl@19ae558f
+name = memberRepository bean = me.iiaii.springrevision.practice.member.MemoryMemberRepository@5a271c1a
+name = discountPolicy bean = me.iiaii.springrevision.practice.discount.RateDiscountPolicy@5e76dd4
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
