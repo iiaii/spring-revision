@@ -21,8 +21,9 @@ me/iiaii/springrevision/practice/beanFind/ApplicationContextExtendsFindTest.java
  me.iiaii.springrevision.practice.beanFind.ApplicationContextExtendsFindTest$TestConfig
 me/iiaii/springrevision/preview/service/MemberServiceTest.java
  me.iiaii.springrevision.preview.service.MemberServiceTest
-me/iiaii/springrevision/practice/order/OrderServiceTest.java
- me.iiaii.springrevision.practice.order.OrderServiceTest
+me/iiaii/springrevision/practice/singleton/StatefulServiceTest.java
+ me.iiaii.springrevision.practice.singleton.StatefulServiceTest
+ me.iiaii.springrevision.practice.singleton.StatefulServiceTest$TestConfig
 me/iiaii/springrevision/practice/scan/filter/MyExcludeComponent.java
  me.iiaii.springrevision.practice.scan.filter.MyExcludeComponent
 me/iiaii/springrevision/practice/xml/XmlAppTest.java
@@ -34,18 +35,19 @@ me/iiaii/springrevision/practice/scan/filter/ComponentFilterAppConfigTest.java
  me.iiaii.springrevision.practice.scan.filter.ComponentFilterAppConfigTest$ComponentFilterAppConfig
 me/iiaii/springrevision/practice/scan/AutoAppConfigTest.java
  me.iiaii.springrevision.practice.scan.AutoAppConfigTest
-me/iiaii/springrevision/practice/singleton/ConfigurationSingletonTest.java
- me.iiaii.springrevision.practice.singleton.ConfigurationSingletonTest
 me/iiaii/springrevision/SpringRevisionApplicationTests.java
  me.iiaii.springrevision.SpringRevisionApplicationTests
+me/iiaii/springrevision/practice/member/MemberServiceTest.java
+ me.iiaii.springrevision.practice.member.MemberServiceTest
+me/iiaii/springrevision/practice/singleton/ConfigurationSingletonTest.java
+ me.iiaii.springrevision.practice.singleton.ConfigurationSingletonTest
 me/iiaii/springrevision/practice/beanFind/ApplicationContextBasicFindTest.java
  me.iiaii.springrevision.practice.beanFind.ApplicationContextBasicFindTest
 me/iiaii/springrevision/practice/singleton/SingletoneTest.java
  me.iiaii.springrevision.practice.singleton.SingletoneTest
-me/iiaii/springrevision/practice/singleton/StatefulServiceTest.java
- me.iiaii.springrevision.practice.singleton.StatefulServiceTest
- me.iiaii.springrevision.practice.singleton.StatefulServiceTest$TestConfig
 me/iiaii/springrevision/practice/beanFind/ApplicationContextInfoTest.java
  me.iiaii.springrevision.practice.beanFind.ApplicationContextInfoTest
-me/iiaii/springrevision/practice/member/MemberServiceTest.java
- me.iiaii.springrevision.practice.member.MemberServiceTest
+me/iiaii/springrevision/practice/order/OrderServiceTest.java
+ me.iiaii.springrevision.practice.order.OrderServiceTest
+me/iiaii/springrevision/practice/order/OrderServiceImplTest.java
+ me.iiaii.springrevision.practice.order.OrderServiceImplTest
