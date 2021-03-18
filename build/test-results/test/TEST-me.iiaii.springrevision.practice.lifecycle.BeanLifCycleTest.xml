@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="me.iiaii.springrevision.practice.lifecycle.BeanLifCycleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-18T14:48:57" hostname="CJHui-MacBook-Pro.local" time="2.677">
+  <properties/>
+  <testcase name="lifeCycleTest()" classname="me.iiaii.springrevision.practice.lifecycle.BeanLifCycleTest" time="2.677"/>
+  <system-out><![CDATA[23:48:57.999 [Test worker] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2ce4cff5
+23:48:58.292 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+23:48:59.041 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+23:48:59.151 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+23:48:59.161 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+23:48:59.165 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+23:48:59.190 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+23:48:59.215 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'beanLifCycleTest.LifeCycleConfig'
+23:48:59.231 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'networkClient'
+생성자 호출, url = null
+connect: null
+call: null message = 초기화 연결 메시지
+23:48:59.493 [Test worker] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2ce4cff5, started on Thu Mar 18 23:48:57 KST 2021
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

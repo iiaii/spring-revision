@@ -54,3 +54,8 @@ me/iiaii/springrevision/practice/order/OrderServiceTest.java
 me/iiaii/springrevision/practice/autowired/AllBeanTest.java
  me.iiaii.springrevision.practice.autowired.AllBeanTest
  me.iiaii.springrevision.practice.autowired.AllBeanTest$DiscountService
+me/iiaii/springrevision/practice/lifecycle/NetworkClient.java
+ me.iiaii.springrevision.practice.lifecycle.NetworkClient
+me/iiaii/springrevision/practice/lifecycle/BeanLifCycleTest.java
+ me.iiaii.springrevision.practice.lifecycle.BeanLifCycleTest
+ me.iiaii.springrevision.practice.lifecycle.BeanLifCycleTest$LifeCycleConfig
