@@ -1,18 +1,22 @@
 package me.iiaii.springrevision.practice.order;
 
+import me.iiaii.springrevision.practice.annotation.SubDiscountPolicy;
 import me.iiaii.springrevision.practice.discount.DiscountPolicy;
+import me.iiaii.springrevision.practice.discount.FixDiscountPolicy;
 import me.iiaii.springrevision.practice.member.Member;
 import me.iiaii.springrevision.practice.member.MemberRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
+//@RequiredArgsConstructor
 public class OrderServiceImpl implements OrderService {
 
     private final MemberRepository memberRepository;
+    //    @Qualifier("mainDiscountPolicy")
     private final DiscountPolicy discountPolicy;
 
-    public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
+    public OrderServiceImpl(MemberRepository memberRepository, @SubDiscountPolicy DiscountPolicy discountPolicy) {
+        System.out.println("discountPolicy = " + (discountPolicy instanceof FixDiscountPolicy));
         this.memberRepository = memberRepository;
         this.discountPolicy = discountPolicy;
     }

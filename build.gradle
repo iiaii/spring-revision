@@ -8,6 +8,7 @@ group = 'me.iiaii'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 
+// lombok 설정
 configurations {
     compileOnly {
         extendsFrom annotationProcessor
