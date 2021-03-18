@@ -44,11 +44,11 @@ me/iiaii/springrevision/preview/aop/TimeTraceAop.java
  me.iiaii.springrevision.preview.aop.TimeTraceAop
 me/iiaii/springrevision/practice/discount/RateDiscountPolicy.java
  me.iiaii.springrevision.practice.discount.RateDiscountPolicy
+me/iiaii/springrevision/practice/AppConfig.java
+ me.iiaii.springrevision.practice.AppConfig
 me/iiaii/springrevision/practice/annotation/SubDiscountPolicy.java
  me.iiaii.springrevision.practice.annotation.SubDiscountPolicy
 me/iiaii/springrevision/practice/discount/FixDiscountPolicy.java
  me.iiaii.springrevision.practice.discount.FixDiscountPolicy
-me/iiaii/springrevision/practice/AppConfig.java
- me.iiaii.springrevision.practice.AppConfig
 me/iiaii/springrevision/practice/order/OrderServiceImpl.java
  me.iiaii.springrevision.practice.order.OrderServiceImpl

@@ -30,9 +30,6 @@ me/iiaii/springrevision/practice/scan/filter/MyExcludeComponent.java
  me.iiaii.springrevision.practice.scan.filter.MyExcludeComponent
 me/iiaii/springrevision/practice/xml/XmlAppTest.java
  me.iiaii.springrevision.practice.xml.XmlAppTest
-me/iiaii/springrevision/practice/beanFind/ApplicationContextExtendsFindTest.java
- me.iiaii.springrevision.practice.beanFind.ApplicationContextExtendsFindTest
- me.iiaii.springrevision.practice.beanFind.ApplicationContextExtendsFindTest$TestConfig
 me/iiaii/springrevision/practice/discount/RateDiscountPolicyTest.java
  me.iiaii.springrevision.practice.discount.RateDiscountPolicyTest
 me/iiaii/springrevision/practice/order/OrderServiceImplTest.java
@@ -41,13 +38,19 @@ me/iiaii/springrevision/practice/scan/AutoAppConfigTest.java
  me.iiaii.springrevision.practice.scan.AutoAppConfigTest
 me/iiaii/springrevision/practice/singleton/ConfigurationSingletonTest.java
  me.iiaii.springrevision.practice.singleton.ConfigurationSingletonTest
+me/iiaii/springrevision/practice/member/MemberServiceTest.java
+ me.iiaii.springrevision.practice.member.MemberServiceTest
 me/iiaii/springrevision/practice/beanFind/ApplicationContextBasicFindTest.java
  me.iiaii.springrevision.practice.beanFind.ApplicationContextBasicFindTest
+me/iiaii/springrevision/practice/beanFind/ApplicationContextExtendsFindTest.java
+ me.iiaii.springrevision.practice.beanFind.ApplicationContextExtendsFindTest
+ me.iiaii.springrevision.practice.beanFind.ApplicationContextExtendsFindTest$TestConfig
 me/iiaii/springrevision/practice/singleton/SingletoneTest.java
  me.iiaii.springrevision.practice.singleton.SingletoneTest
 me/iiaii/springrevision/practice/beanFind/ApplicationContextInfoTest.java
  me.iiaii.springrevision.practice.beanFind.ApplicationContextInfoTest
 me/iiaii/springrevision/practice/order/OrderServiceTest.java
  me.iiaii.springrevision.practice.order.OrderServiceTest
-me/iiaii/springrevision/practice/member/MemberServiceTest.java
- me.iiaii.springrevision.practice.member.MemberServiceTest
+me/iiaii/springrevision/practice/autowired/AllBeanTest.java
+ me.iiaii.springrevision.practice.autowired.AllBeanTest
+ me.iiaii.springrevision.practice.autowired.AllBeanTest$DiscountService
