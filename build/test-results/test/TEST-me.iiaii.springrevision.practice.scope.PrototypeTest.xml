@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="me.iiaii.springrevision.practice.scope.PrototypeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-19T12:50:22" hostname="CJHui-MacBook-Pro.local" time="0.821">
+  <properties/>
+  <testcase name="prototypeBeanFind()" classname="me.iiaii.springrevision.practice.scope.PrototypeTest" time="0.821"/>
+  <system-out><![CDATA[21:50:22.714 [Test worker] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2ce4cff5
+21:50:22.762 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+21:50:22.822 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+21:50:22.828 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+21:50:22.831 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+21:50:22.842 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+21:50:22.853 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+find prototypeBean1
+SingletonBean.init
+find prototypeBean2
+SingletonBean.init
+bean1 = me.iiaii.springrevision.practice.scope.PrototypeTest$PrototypeBean@e807c90
+bean2 = me.iiaii.springrevision.practice.scope.PrototypeTest$PrototypeBean@70924d31
+21:50:23.108 [Test worker] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2ce4cff5, started on Fri Mar 19 21:50:22 KST 2021
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
