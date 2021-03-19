@@ -65,3 +65,7 @@ me/iiaii/springrevision/practice/scope/SingletonTest.java
 me/iiaii/springrevision/practice/scope/PrototypeTest.java
  me.iiaii.springrevision.practice.scope.PrototypeTest
  me.iiaii.springrevision.practice.scope.PrototypeTest$PrototypeBean
+me/iiaii/springrevision/practice/scope/SingletonWithPrototypeTest1.java
+ me.iiaii.springrevision.practice.scope.SingletonWithPrototypeTest1
+ me.iiaii.springrevision.practice.scope.SingletonWithPrototypeTest1$ClientBean
+ me.iiaii.springrevision.practice.scope.SingletonWithPrototypeTest1$PrototypeBean

@@ -33,6 +33,7 @@ public class PrototypeTest {
         ac.close();
     }
 
+    // 생성과 초기화만 관리하기 때문에 새로운 객체 인스턴스를 받게 됨
     @Scope("prototype")
     static class PrototypeBean {
         @PostConstruct
