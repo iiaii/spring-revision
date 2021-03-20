@@ -1,15 +1,37 @@
+me/iiaii/springrevision/practice/order/OrderServiceImplTest.java
+ me.iiaii.springrevision.practice.order.OrderServiceImplTest
+me/iiaii/springrevision/practice/beanFind/ApplicationContextSameFindTest.java
+ me.iiaii.springrevision.practice.beanFind.ApplicationContextSameFindTest
+ me.iiaii.springrevision.practice.beanFind.ApplicationContextSameFindTest$SameBeanConfig
+me/iiaii/springrevision/practice/scan/filter/BeanA.java
+ me.iiaii.springrevision.practice.scan.filter.BeanA
+me/iiaii/springrevision/practice/scope/SingletonWithPrototypeTest1.java
+ me.iiaii.springrevision.practice.scope.SingletonWithPrototypeTest1
+ me.iiaii.springrevision.practice.scope.SingletonWithPrototypeTest1$ClientBean
+ me.iiaii.springrevision.practice.scope.SingletonWithPrototypeTest1$PrototypeBean
+me/iiaii/springrevision/practice/lifecycle/BeanLifCycleTest.java
+ me.iiaii.springrevision.practice.lifecycle.BeanLifCycleTest
+ me.iiaii.springrevision.practice.lifecycle.BeanLifCycleTest$LifeCycleConfig
+me/iiaii/springrevision/preview/service/MemberServiceTest.java
+ me.iiaii.springrevision.preview.service.MemberServiceTest
+me/iiaii/springrevision/practice/scan/filter/ComponentFilterAppConfigTest.java
+ me.iiaii.springrevision.practice.scan.filter.ComponentFilterAppConfigTest
+ me.iiaii.springrevision.practice.scan.filter.ComponentFilterAppConfigTest$ComponentFilterAppConfig
+me/iiaii/springrevision/practice/singleton/ConfigurationSingletonTest.java
+ me.iiaii.springrevision.practice.singleton.ConfigurationSingletonTest
+me/iiaii/springrevision/practice/autowired/AllBeanTest.java
+ me.iiaii.springrevision.practice.autowired.AllBeanTest
+ me.iiaii.springrevision.practice.autowired.AllBeanTest$DiscountService
+me/iiaii/springrevision/practice/lifecycle/NetworkClient.java
+ me.iiaii.springrevision.practice.lifecycle.NetworkClient
+me/iiaii/springrevision/practice/beanFind/ApplicationContextInfoTest.java
+ me.iiaii.springrevision.practice.beanFind.ApplicationContextInfoTest
 me/iiaii/springrevision/practice/scan/filter/MyIncludeComponent.java
  me.iiaii.springrevision.practice.scan.filter.MyIncludeComponent
 me/iiaii/springrevision/practice/singleton/SingletonService.java
  me.iiaii.springrevision.practice.singleton.SingletonService
-me/iiaii/springrevision/practice/singleton/StatefulService.java
- me.iiaii.springrevision.practice.singleton.StatefulService
-me/iiaii/springrevision/practice/singleton/StatefulServiceTest.java
- me.iiaii.springrevision.practice.singleton.StatefulServiceTest
- me.iiaii.springrevision.practice.singleton.StatefulServiceTest$TestConfig
-me/iiaii/springrevision/practice/beanFind/ApplicationContextSameFindTest.java
- me.iiaii.springrevision.practice.beanFind.ApplicationContextSameFindTest
- me.iiaii.springrevision.practice.beanFind.ApplicationContextSameFindTest$SameBeanConfig
+me/iiaii/springrevision/practice/discount/RateDiscountPolicyTest.java
+ me.iiaii.springrevision.practice.discount.RateDiscountPolicyTest
 me/iiaii/springrevision/practice/scan/filter/BeanB.java
  me.iiaii.springrevision.practice.scan.filter.BeanB
 me/iiaii/springrevision/practice/autowired/AutowiredTest.java
@@ -17,55 +39,33 @@ me/iiaii/springrevision/practice/autowired/AutowiredTest.java
  me.iiaii.springrevision.practice.autowired.AutowiredTest$TestBean
 me/iiaii/springrevision/preview/repository/MemoryMemberRepositoryTest.java
  me.iiaii.springrevision.preview.repository.MemoryMemberRepositoryTest
-me/iiaii/springrevision/practice/scan/filter/BeanA.java
- me.iiaii.springrevision.practice.scan.filter.BeanA
-me/iiaii/springrevision/SpringRevisionApplicationTests.java
- me.iiaii.springrevision.SpringRevisionApplicationTests
-me/iiaii/springrevision/preview/service/MemberServiceTest.java
- me.iiaii.springrevision.preview.service.MemberServiceTest
-me/iiaii/springrevision/practice/scan/filter/ComponentFilterAppConfigTest.java
- me.iiaii.springrevision.practice.scan.filter.ComponentFilterAppConfigTest
- me.iiaii.springrevision.practice.scan.filter.ComponentFilterAppConfigTest$ComponentFilterAppConfig
-me/iiaii/springrevision/practice/scan/filter/MyExcludeComponent.java
- me.iiaii.springrevision.practice.scan.filter.MyExcludeComponent
-me/iiaii/springrevision/practice/xml/XmlAppTest.java
- me.iiaii.springrevision.practice.xml.XmlAppTest
-me/iiaii/springrevision/practice/discount/RateDiscountPolicyTest.java
- me.iiaii.springrevision.practice.discount.RateDiscountPolicyTest
-me/iiaii/springrevision/practice/order/OrderServiceImplTest.java
- me.iiaii.springrevision.practice.order.OrderServiceImplTest
-me/iiaii/springrevision/practice/scan/AutoAppConfigTest.java
- me.iiaii.springrevision.practice.scan.AutoAppConfigTest
-me/iiaii/springrevision/practice/singleton/ConfigurationSingletonTest.java
- me.iiaii.springrevision.practice.singleton.ConfigurationSingletonTest
-me/iiaii/springrevision/practice/member/MemberServiceTest.java
- me.iiaii.springrevision.practice.member.MemberServiceTest
-me/iiaii/springrevision/practice/beanFind/ApplicationContextBasicFindTest.java
- me.iiaii.springrevision.practice.beanFind.ApplicationContextBasicFindTest
 me/iiaii/springrevision/practice/beanFind/ApplicationContextExtendsFindTest.java
  me.iiaii.springrevision.practice.beanFind.ApplicationContextExtendsFindTest
  me.iiaii.springrevision.practice.beanFind.ApplicationContextExtendsFindTest$TestConfig
-me/iiaii/springrevision/practice/singleton/SingletoneTest.java
- me.iiaii.springrevision.practice.singleton.SingletoneTest
-me/iiaii/springrevision/practice/beanFind/ApplicationContextInfoTest.java
- me.iiaii.springrevision.practice.beanFind.ApplicationContextInfoTest
 me/iiaii/springrevision/practice/order/OrderServiceTest.java
  me.iiaii.springrevision.practice.order.OrderServiceTest
-me/iiaii/springrevision/practice/autowired/AllBeanTest.java
- me.iiaii.springrevision.practice.autowired.AllBeanTest
- me.iiaii.springrevision.practice.autowired.AllBeanTest$DiscountService
-me/iiaii/springrevision/practice/lifecycle/NetworkClient.java
- me.iiaii.springrevision.practice.lifecycle.NetworkClient
-me/iiaii/springrevision/practice/lifecycle/BeanLifCycleTest.java
- me.iiaii.springrevision.practice.lifecycle.BeanLifCycleTest
- me.iiaii.springrevision.practice.lifecycle.BeanLifCycleTest$LifeCycleConfig
+me/iiaii/springrevision/practice/scan/filter/MyExcludeComponent.java
+ me.iiaii.springrevision.practice.scan.filter.MyExcludeComponent
 me/iiaii/springrevision/practice/scope/SingletonTest.java
  me.iiaii.springrevision.practice.scope.SingletonTest
  me.iiaii.springrevision.practice.scope.SingletonTest$SingletonBean
+me/iiaii/springrevision/practice/xml/XmlAppTest.java
+ me.iiaii.springrevision.practice.xml.XmlAppTest
+me/iiaii/springrevision/practice/singleton/StatefulService.java
+ me.iiaii.springrevision.practice.singleton.StatefulService
+me/iiaii/springrevision/practice/scan/AutoAppConfigTest.java
+ me.iiaii.springrevision.practice.scan.AutoAppConfigTest
+me/iiaii/springrevision/SpringRevisionApplicationTests.java
+ me.iiaii.springrevision.SpringRevisionApplicationTests
+me/iiaii/springrevision/practice/beanFind/ApplicationContextBasicFindTest.java
+ me.iiaii.springrevision.practice.beanFind.ApplicationContextBasicFindTest
+me/iiaii/springrevision/practice/singleton/SingletoneTest.java
+ me.iiaii.springrevision.practice.singleton.SingletoneTest
+me/iiaii/springrevision/practice/singleton/StatefulServiceTest.java
+ me.iiaii.springrevision.practice.singleton.StatefulServiceTest
+ me.iiaii.springrevision.practice.singleton.StatefulServiceTest$TestConfig
+me/iiaii/springrevision/practice/member/MemberServiceTest.java
+ me.iiaii.springrevision.practice.member.MemberServiceTest
 me/iiaii/springrevision/practice/scope/PrototypeTest.java
  me.iiaii.springrevision.practice.scope.PrototypeTest
  me.iiaii.springrevision.practice.scope.PrototypeTest$PrototypeBean
-me/iiaii/springrevision/practice/scope/SingletonWithPrototypeTest1.java
- me.iiaii.springrevision.practice.scope.SingletonWithPrototypeTest1
- me.iiaii.springrevision.practice.scope.SingletonWithPrototypeTest1$ClientBean
- me.iiaii.springrevision.practice.scope.SingletonWithPrototypeTest1$PrototypeBean
