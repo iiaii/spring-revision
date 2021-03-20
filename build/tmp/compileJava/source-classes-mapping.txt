@@ -52,3 +52,9 @@ me/iiaii/springrevision/practice/discount/FixDiscountPolicy.java
  me.iiaii.springrevision.practice.discount.FixDiscountPolicy
 me/iiaii/springrevision/practice/order/OrderServiceImpl.java
  me.iiaii.springrevision.practice.order.OrderServiceImpl
+me/iiaii/springrevision/practice/web/LogDemoService.java
+ me.iiaii.springrevision.practice.web.LogDemoService
+me/iiaii/springrevision/practice/common/MyLogger.java
+ me.iiaii.springrevision.practice.common.MyLogger
+me/iiaii/springrevision/practice/web/LogDemoController.java
+ me.iiaii.springrevision.practice.web.LogDemoController
